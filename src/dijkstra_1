@@ -1,6 +1,6 @@
 import numpy as np
 def startwith(start: int, matrix: list) -> list:
-    matrix[matrix == 0] = np.inf
+    
     permanent_vertices = [start]
     temoprary_vertices = [x for x in range(len(matrix)) if x != start]
     dis = matrix[start]
@@ -20,7 +20,7 @@ def startwith(start: int, matrix: list) -> list:
 
 if __name__ == "__main__":
     
-    matrix = np.loadtxt('test_1.txt', skiprows=2, dtype=int)
+    matrix = np.loadtxt('test.txt', skiprows=2, dtype=int)
     
     dis = startwith(0, matrix)
 
