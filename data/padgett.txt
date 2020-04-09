@@ -1,0 +1,3 @@
+S
+18
+{("Pucci", "Pucci", 0), ("Peruzzi", "Castellan", 0), ("Peruzzi", "Strozzi", 0), ("Peruzzi", "Bischeri", 0), ("Castellan", "Barbadori", 0), ("Castellan", "Strozzi", 0), ("Strozzi", "Bischeri", 0), ("Strozzi", "Ridolfi", 0), ("Bischeri", "Guadagni", 0), ("Barbadori", "Medici", 0), ("Ridolfi", "Tornaboun", 0), ("Ridolfi", "Medici", 0), ("Guadagni", "Lambertes", 0), ("Guadagni", "Tornabuon" ,0), ("Guadagni", "Abizzi", 0), ("Medici", "Tornabuon", 0), ("Medici", "Albizzi", 0), ("Medici", "Acciaiuol", 0), ("Medici", "Salviati", 0), ("Albizzi", "Ginori", 0), ("Salviati", "Pazzi", 0)}
