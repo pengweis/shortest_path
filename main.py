@@ -1,6 +1,6 @@
 import time
 from src.dijkstra import DijkstraSPathTree
-from src.tarjan import TarjanSPathTree
+from src.tarjan import TarjanSPath
 
 
 def main():
@@ -19,7 +19,7 @@ def main():
 
         elif initial_choice == "heap":
             start_time = time.time()
-            spp_heap = TarjanSPathTree("Padgett.txt", initial_node)
+            spp_heap = TarjanSPath("Padgett.txt", initial_node)
             spp_heap.algorithm()
             end_time = time.time()
             # show all detail information
